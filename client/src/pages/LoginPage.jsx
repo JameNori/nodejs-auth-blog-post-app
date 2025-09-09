@@ -8,7 +8,6 @@ function LoginPage() {
   const { login } = useAuth();
 
   const handleSubmit = (event) => {
-    event.preventDefault();
     // 🐨 Todo: Exercise #4
     //  นำ Function `login` ใน AuthContext มา Execute ใน Event Handler ตรงนี้
     event.preventDefault();
